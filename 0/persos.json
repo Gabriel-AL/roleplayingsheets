@@ -1,0 +1,414 @@
+{
+	"campagne": "Les Marcheurs",
+	"MJ": "Maximilien",
+	"joueurs": [
+		{
+			"id":0,
+			"joueur": "Modestie",
+			"prenom":"Jarek",
+			"nom": "Owen",
+			"niveau":5,
+			"classe": 4,
+			"spe": 7,
+			"alignement": 2,
+			"physique": 75,
+			"esprit": 40,
+			"social": 70,
+			"langue": [
+				{
+					"langue":0
+				},{
+					"langue":1
+				}
+			],
+			"posture":1 ,
+			"magie": 5,
+			"vie": 23,
+			"pts_totem": 7,
+			"totem": "Serval",
+			"don": [
+				{
+					"don": 42,
+					"level": 3
+				},
+				{
+					"don": 39,
+					"level": 1
+				},
+				{
+					"don": 38,
+					"level": 1
+				},
+				{
+					"don": 20,
+					"level": 5
+				},
+				{
+					"don": 17,
+					"level": 4
+				},
+				{
+					"don": 14,
+					"level": 2
+				}
+			],
+			"items": [
+				{
+					"items": 14
+				},
+				{
+					"items": 15
+				},
+				{
+					"items": 16
+				},
+				{
+					"items": 17
+				},
+				{
+					"items": 18
+				},
+				{
+					"items": 19
+				},
+				{
+					"items": 20
+				},
+				{
+					"items": 21
+				},
+				{
+					"items": 5
+				},
+				{
+					"items": 6
+				},
+				{
+					"items": 3
+				}
+			],
+			"sorts": [
+				{
+					"sorts": 2
+				},
+				{
+					"sorts": 3
+				}
+			],
+			"enchant": [
+				{
+					"enchant": 2,
+					"on": 14
+				},
+				{
+					"enchant": 3,
+					"on": 16
+				},
+				{
+					"enchant": 4,
+					"on": 17
+				}
+			],
+			"histoire": "Il est noble et a été élevé pendant 150 ans selon le principe qu'il était la réincarnation de l'étoile du matin son ancêtre lointain, grand héro et défenseur de la justice. Un jour, son père lui a annoncé qu'il était enfin prêt à remplir sa mission et à remettre le monde sur le droit chemin et lui a remit le tite d'Etoile du Matin.",
+			"img": "jarek.png",
+			"subtitle": "Pour la Justice !"
+		},
+		{
+			"id":1,
+			"joueur": "Séverine",
+			"prenom":"Ciri",
+			"nom": "Haddar",
+			"niveau":5,
+			"classe": 4,
+			"spe": 8,
+			"alignement": 1,
+			"physique": 85,
+			"esprit": 55,
+			"social": 45,
+			"langue": [
+				{
+					"langue":0
+				}
+			],
+			"posture": 0,
+			"magie": 7,
+			"vie": 14,
+			"pts_totem": 2,
+			"totem": "Léopard des Neiges",
+			"don": [
+				{
+					"don": 30,
+					"level": 5
+				},
+				{
+					"don": 31,
+					"level": 2
+				},
+				{
+					"don": 26,
+					"level": 4
+				},
+				{
+					"don": 11,
+					"level": 3
+				}
+			],
+			"items": [
+				{
+					"items": 0
+				},
+				{
+					"items": 1
+				},
+				{
+					"items": 2
+				},
+				{
+					"items": 3
+				},
+				{
+					"items": 4
+				},
+				{
+					"items": 5
+				},
+				{
+					"items": 6
+				},
+				{
+					"items": 7
+				},
+				{
+					"items": 8
+				},
+				{
+					"items": 9
+				},
+				{
+					"items": 10
+				},
+				{
+					"items": 11
+				},
+				{
+					"items": 12
+				},
+				{
+					"items": 13
+				}
+			],
+			"sorts": [
+				{
+					"sorts": 0
+				},
+				{
+					"sorts": 1 
+				}
+			],
+			"enchant": [
+				{
+					"enchant":0 ,
+					"on": 0
+				},
+				{
+					"enchant": 1,
+					"on": 1
+				}
+			],
+			"histoire": "",
+			"img": "ciri.png",
+			"subtitle": "Eh bien, Paf."
+		},
+		{
+			"id":2,
+			"joueur": "Alford",
+			"prenom":"Emmanuel",
+			"nom": "Freud",
+			"niveau":5,
+			"classe": 2,
+			"spe": 3,
+			"alignement": 1,
+			"physique": 75,
+			"esprit": 50,
+			"social": 65,
+			"langue": [
+				{
+					"langue":0
+				}
+			],
+			"posture":2,
+			"magie": 6,
+			"vie": 14,
+			"pts_totem": 3,
+			"totem": "Moustique",
+			"don": [
+				{
+					"don": 7,
+					"level": 3
+				},
+				{
+					"don": 19,
+					"level": 4
+				},
+				{
+					"don": 15,
+					"level": 1
+				},
+				{
+					"don": 0,
+					"level": 4
+				}
+			],
+			"items": [
+				{
+					"items": 22
+				},
+				{
+					"items": 23
+				},
+				{
+					"items": 24,
+					"nb": 20
+				},
+				{
+					"items": 15
+				},
+				{
+					"items": 25
+				},
+				{
+					"items": 5
+				},
+				{
+					"items": 6
+				},
+				{
+					"items": 27
+				},
+				{
+					"items": 26
+				},
+				{
+					"items": 28
+				},
+				{
+					"items": 3
+				}
+			],
+			"sorts": [
+				{
+					"sorts": 4
+				},
+				{
+					"sorts": 5
+				}
+			],
+			"enchant": [
+				{
+					"enchant": 5,
+					"on": 22
+				},
+				{
+					"enchant": 6,
+					"on": 25
+				}
+			],
+			"histoire": "Emmanuel était un soldat au service de l'ancien seigneur d'Aigleroc, fils unique et enfant disons assez sociable et populaire. Après que son seigneur ce soit fait tuer, il est partit et a finit par tomber sur vous.",
+			"img": "manu.png",
+			"subtitle": "Je connais le chemin."
+		},
+		{
+			"id":3,
+			"joueur": "Dawan",
+			"prenom":"Silennth",
+			"nom": "Neolenn",
+			"niveau":5,
+			"classe": 5,
+			"spe": 10,
+			"alignement": 3,
+			"physique": 45,
+			"esprit": 85,
+			"social": 55,
+			"langue": [
+				{
+					"langue":0
+				},{
+					"langue":1
+				}
+			],
+			"posture": 4,
+			"magie": 14,
+			"vie": 13,
+			"pts_totem": 1,
+			"totem": "Serpent",
+			"don": [
+				{
+					"don": 9,
+					"level": 3
+				},
+				{
+					"don": 19,
+					"level": 2
+				},
+				{
+					"don": 13,
+					"level": 4
+				},
+				{
+					"don": 21,
+					"level": 3
+				}
+			],
+			"items": [
+				{
+					"items": 29
+				},
+				{
+					"items": 30
+				},
+				{
+					"items": 31
+				},
+				{
+					"items": 32
+				},
+				{
+					"items": 33
+				},
+				{
+					"items": 34
+				},
+				{
+					"items": 35
+				},
+				{
+					"items": 36
+				},
+				{
+					"items": 5
+				},
+				{
+					"items": 6
+				}
+			],
+			"sorts": [
+				{
+					"sorts": 6
+				},
+				{
+					"sorts": 7
+				},
+				{
+					"sorts": 8
+				},
+				{
+					"sorts": 9
+				}
+			],
+			"enchant": [],
+			"histoire": "Abandonné par ses parents auprès des baptistrels, Silennth y a suivi l'enseignement et l'éducation destinés aux Enwrs. Il aurait pu continuer ainsi si, brusquement, son maître n'avait pas disparu.",
+			"img": "silennth.png",
+			"subtitle": "Fraternité animale."
+		}
+	]
+}

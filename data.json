@@ -1,0 +1,754 @@
+
+{
+  "alignement":[
+    {
+      "id":0,
+      "nom":"Loyal Bon"
+    },
+    {
+      "id":1,
+      "nom":"Neutre Bon"
+    },
+    {
+      "id":2,
+      "nom":"Chaotique Bon"
+    },
+    {
+      "id":3,
+      "nom":"Loyal Neutre"
+    },
+    {
+      "id":4,
+      "nom":"Neutre"
+    },
+    {
+      "id":5,
+      "nom":"Chaotique Neutre"
+    },
+    {
+      "id":6,
+      "nom":"Loyal Mauvais"
+    },
+    {
+      "id":7,
+      "nom":"Neutre Mauvais"
+    },
+    {
+      "id":8,
+      "nom":"Chaotique Mauvais"
+    }
+  ],
+  "langue":[
+    {
+      "id":0,
+      "nom":"Commun"
+    },
+    {
+      "id":1,
+      "nom":"Elfique"
+    }
+  ],
+  "cat_dons":[
+    {
+      "id":0,
+      "cat_don": "Physique"
+    },
+    {
+      "id":1,
+      "cat_don": "Magique"
+    },
+    {
+      "id":2,
+      "cat_don": "Martial"
+    }
+  ],
+  "don":[
+    {
+      "id":0,
+      "nom": "Culturisme ",
+      "desc": "Le personnage obtient un bonus sur toutes ses actions de force pur (Escalade compris).",
+      "cat": 0
+    },
+    {
+      "id":1,
+      "nom": "Acrobate ",
+      "desc": "Le personnage obtient un bonus sur toutes ses actions acrobatique (Ex : Saut/equilibre).",
+      "cat": 0
+    },
+    {
+      "id":2,
+      "nom": "Athlétisme ",
+      "desc": "Le personnage obtient un bonus sur tous ses actions d'escalade/natation.",
+      "cat": 0
+    },
+    {
+      "id":3,
+      "nom": "Furtif",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Discrétion/Furtivité.",
+      "cat": 0
+    },
+    {
+      "id":4,
+      "nom": "Doigts de fée ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Vol et toutes actions nécessitant une dextérité poussée des doigts.",
+      "cat": 0
+    },
+    {
+      "id":5,
+      "nom": "Esquive ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests d'Esquive.",
+      "cat": 0
+    },
+    {
+      "id":6,
+      "nom": "Feu nourri ",
+      "desc": "Le personnage obtient la capacité de tirer une deuxième fois dans un même tour avec une arme à distance ou de jet avec un malus inférieur à sa caractéristique diviser par deux.",
+      "cat": 0
+    },
+    {
+      "id":7,
+      "nom": "Fin limier ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Fouille et de Renseignement.",
+      "cat": 0
+    },
+    {
+      "id":8,
+      "nom": "Fourberie ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Contrefaçon et de Déguisement.",
+      "cat": 0
+    },
+    {
+      "id":9,
+      "nom": "Fraternité animale ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de social avec un animal et d’Équitation.",
+      "cat": 0
+    },
+    {
+      "id":10,
+      "nom": "Maitre de l'évasion ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests d’Évasion (se libérer d'entrave).",
+      "cat": 0
+    },
+    {
+      "id":11,
+      "nom": "Parade de projectile ",
+      "desc": "Le personnage obtient la capacité de dévier un projectil léger avec son arme (flèche, dague de jet). (A partir du deuxième niveau il gagne un bonus dans ce type d'action).",
+      "cat": 0
+    },
+    {
+      "id":12,
+      "nom": "Méticuleux ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Décryptage et d’Éstimation.",
+      "cat": 0
+    },
+    {
+      "id":13,
+      "nom": "Négociation ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Diplomatie et de Charisme.",
+      "cat": 0
+    },
+    {
+      "id":14,
+      "nom": "Persuasion ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Bluff et d’Intimidation.",
+      "cat": 0
+    },
+    {
+      "id":15,
+      "nom": "Rechargement rapide",
+      "desc": "Le temps nécessaire pour que le personnage recharge son arme est réduit à une action libre ou une action de mouvement (pour les arbalètes). (pas de niveau supplémentaire)",
+      "cat": 0
+    },
+    {
+      "id":16,
+      "nom": "Réflexes surhumains ",
+      "desc": "Le personnage bénéficie d’un bonus aux jets de Réflexes.",
+      "cat": 0
+    },
+    {
+      "id":17,
+      "nom": "Robustesse ",
+      "desc": "Le personnage gagne 3 points de vie supplémentaires.",
+      "cat": 0,
+      "other_count": true
+    },
+    {
+      "id":18,
+      "nom": "Savoir faire mécanique ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Crochetage et de Désamorçage/Sabotage.",
+      "cat": 0
+    },
+    {
+      "id":19,
+      "nom": "Vigilance ",
+      "desc": "Le personnage bénéficie d’un bonus sur tous ses tests de Détection physique et de Perception physique.",
+      "cat": 0
+    },
+    {
+      "id":20,
+      "nom": "Volonté de fer ",
+      "desc": "Le personnage bénéficie d’un bonus à tous ses jets de Volonté/Courage/Force mental.",
+      "cat": 0
+    },
+    {
+      "id":21,
+      "nom": "Vie en nature ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant l'environnement de la nature.",
+      "cat": 0
+    },
+    {
+      "id": 22,
+      "nom": "Vie citadine ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant l'environnement de la ville.",
+      "cat": 0
+    },
+    {
+      "id":23,
+      "nom": "Erudition ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests de Connaissance et de Sagesse (comprend les soins physique).",
+      "cat": 0
+    },
+    {
+     "id":24,
+      "nom": "Artisant ",
+      "desc": "Le personnage obtient un bonus sur tous ses jets d'Artisanat.",
+      "cat": 0
+    },
+    {
+      "id":25,
+      "nom": "Imperturbable ",
+      "desc": "Le personnage obtient un bonus sur tous ses jets de Concentration.",
+      "cat": 0
+    },
+    {
+      "id":26,
+      "nom": "Affinité magique",
+      "desc": "Le personnage obtient un bonus sur tous ses tests d’Art de la magie et d’Utilisation des objets magiques.",
+      "cat": 1
+    },
+    {
+      "id":27,
+      "nom": "Vigilance magique",
+      "desc": "Le personnage bénéficie d’un bonus sur tous ses tests de Détection magique et de Perception magique.",
+      "cat": 1
+    },
+    {
+      "id": 28,
+      "nom": "Extension de durée",
+      "desc": "Les sorts ayant une durée dure un tour de plus qu’indiqué dans sa description. Les effets physiques d'un sort dure deux fois plus longtemps qu’indiqué dans sa description (Ex: feu magique brule plus longtemps, ect ...).",
+      "cat": 1
+    },
+    {
+      "id": 29,
+      "nom": "Incantation rapide",
+      "desc": "L’incantation du sort ne demande qu’une action libre et le personnage peut se livrer à une autre action (et même jeter un second sort !) au cours du même round. Il n’est possible de lancer qu’un sort à incantation rapide par round. Si le temps d’incantation du sort est supérieur à un round, il est impossible de l’accélérer avec ce don. Un sort à incantation rapide nécessite un emplacement de sort de quatre niveaux de plus que son niveau réel. Lancer un sort à incantation rapide ne provoque pas d’attaque d’opportunité.",
+      "cat": 1
+    },
+    {
+      "id": 30,
+      "nom":"Guerrier aguérit",
+      "desc": "Niveau 1 : Capacité d'utiliser une arme à deux mains à une main. Niveau 2 : Capacité à combattre avec deux armes. Niveau 3 : Peut attaquer dans le même tour avec son arme secondaire contre la même cible de l'attaque de l'arme principale. Niveau 5 : Peut attaquer dans le même tour avec son arme secondaire contre une cible différente que celle de l'attaque de l'arme principale.",
+      "cat":2
+    },
+    {
+      "id": 31,
+      "nom":"Epée",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant son épée. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 32,
+      "nom":"Dague ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant sa dague. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 33,
+      "nom":"Armes d'hast ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant son arme d'hast. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 34,
+      "nom":"Hache ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant sa hache. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 35,
+      "nom":"Faux ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant sa faux. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 36,
+      "nom":"Arme de tir ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant son arme de tir (Arc/Arbalète). Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 37,
+      "nom":"Arme de jet ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant son arme jet (= arme pouvant être jeter. Ex: Dague, lance, ect.). Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 38,
+      "nom":"Art de la parade ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant la parade.",
+      "cat":2
+    },
+    {
+      "id": 39,
+      "nom":"Bouclier ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant son bouclier. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 40,
+      "nom":"Pugilat ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant le pugilat (coup de poing). Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 41,
+      "nom":"Bâton ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant son bâton. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 42,
+      "nom":"Masse ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant sa masse. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    },
+    {
+      "id": 43
+      ,
+      "nom":"Fouet ",
+      "desc": "Le personnage obtient un bonus sur tous ses tests incluant son fouet. Un dégât supplementaire avec l'arme au niveau 5.",
+      "cat":2
+    }
+  ],
+  "posture": [
+    {
+      "id": 0,
+      "nom": "Agressive",
+      "desc": "Dégat max + réussite critique à 10%"
+    },
+    {
+      "id": 1,
+      "nom": "Défensive",
+      "desc": "Possibilité de faire une esquive ou une parade lorsque le personnage subit une attaque"
+    },
+    {
+      "id": 2,
+      "nom": "Concentration",
+      "desc": "Bonus de +5% de réussite au jet + couvre un point de magie"
+    },
+    {
+      "id": 3,
+      "nom": "Odhr",
+      "desc": "Transe complète du Diapason, Bonus de +10% au réussite de jet + couvre un point de magie + Réussite critique à 5% + dégat subit multiplier par deux + mouvement impossible" 
+    },
+    {
+      "id": 4,
+      "nom": "Holys",
+      "desc": "Transe consciente du Diapason, Bonus de +5% au réussite de jet + couvre un point de magie + dégat subit +2"
+    }
+  ],
+  "classe": [
+    {
+      "id": 0,
+      "nom": "Enchanteur"
+    },
+    {
+      "id": 1,
+      "nom": "Totémiste"
+    },
+    {
+      "id": 2,
+      "nom": "Archer"
+    },
+    {
+      "id": 3,
+      "nom": "Roublard"
+    },
+    {
+      "id": 4,
+      "nom": "Chevalier"
+    },
+    {
+      "id": 5,
+      "nom": "Baptistrel"
+    },
+    {
+      "id": 6,
+      "nom": "Mage"
+    },
+    {
+      "id": 7,
+      "nom": "Mercenaire"
+    }
+  ],
+  "spe": [
+    {
+      "id": 0,
+      "nom": "Maître Enchanteur",
+      "parent": 0
+    },
+    {
+      "id": 1,
+      "nom": "Maître ensorcelleur",
+      "parent": 0
+    },
+    {
+      "id": 2,
+      "nom": "Tireur d'élite",
+      "parent": 2
+    },
+    {
+      "id": 3,
+      "nom": "Archer-Mage",
+      "parent": 2
+    },
+    {
+      "id": 4,
+      "nom": "Voleur",
+      "parent": 3
+    },
+    {
+      "id": 5,
+      "nom": "Assassin",
+      "parent": 3
+    },
+    {
+      "id": 6,
+      "nom": "Illusioniste",
+      "parent": 3
+    },
+    {
+      "id": 7,
+      "nom": "Maître-Gardien",
+      "parent": 4
+    },
+    {
+      "id": 8,
+      "nom": "Mage-lame",
+      "parent": 4
+    },
+    {
+      "id": 9,
+      "nom": "Chanteur élémentaire",
+      "parent": 5
+    },
+    {
+      "id": 10,
+      "nom": "Maître chanteur",
+      "parent": 5
+    },
+    {
+      "id": 11,
+      "nom": "Pyromancien",
+      "parent": 6
+    },
+    {
+      "id": 12,
+      "nom": "Aquamancien",
+      "parent": 6
+    },
+    {
+      "id": 13,
+      "nom": "Geomancien",
+      "parent": 6
+    },
+    {
+      "id": 14,
+      "nom": "Végémancien",
+      "parent": 6
+    },
+    {
+      "id": 15,
+      "nom": "Aéromancien",
+      "parent": 6
+    },
+    {
+      "id": 16,
+      "nom": "Electromancien",
+      "parent": 6
+    },
+    {
+      "id": 17,
+      "nom": "Arcaniste",
+      "parent": 6
+    },
+    {
+      "id": 18,
+      "nom": "Audiomancien",
+      "parent": 6
+    },
+    {
+      "id": 9,
+      "nom": "Maître d'armes",
+      "parent": 7
+    },
+    {
+      "id": 20,
+      "nom": "Maître des drogues",
+      "parent": 7
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "nom": "Cuirasse",
+      "carac": "5 d'Armure"
+    },
+    {
+      "id": 1,
+      "nom": "Double-Lame",
+      "carac": "3+2D6 - Tranchant - Dégâts max 15"
+    },
+    {
+      "id": 2,
+      "nom": "Masse d'Armes Légère",
+      "carac": "3+1D4 - Contondant - Dégâts max 7"
+    },
+    {
+      "id": 3,
+      "nom": "Sac de couchage"
+    },
+    {
+      "id": 4,
+      "nom": "Trousse de Premier Secours"
+    },
+    {
+      "id": 5,
+      "nom": "Torche"
+    },
+    {
+      "id": 6,
+      "nom": "Allume-Feu" 
+    },
+    {
+      "id": 7,
+      "nom": "Corde en soie"
+    },
+    {
+      "id": 8,
+      "nom": "Outre"
+    },
+    {
+      "id": 9,
+      "nom": "Arc Court",
+      "carac": "3+1D4 - Perforant"
+    },
+    {
+      "id": 10,
+      "nom": "Pierre à Aiguiser",
+      "carac": "Présent"
+    },
+    {
+      "id": 11,
+      "nom": "Rations de survie"
+    },
+    {
+      "id": 12,
+      "nom": "Sacoche de ceinture"
+    },
+    {
+      "id": 13,
+      "nom": "Destrier léger"
+    },{
+      "id": 14,
+      "nom": "Masse d'Armes Lourde",
+      "carac": "3+1D6 - Contondant - Dégâts max 9"
+    },
+    {
+      "id": 15,
+      "nom": "Lance",
+      "carac": "3+1D6 - Perforant - Dégâts max 9"
+    },
+    {
+      "id": 16,
+      "nom": "Masse d'Arme Lourde (Magique)"
+    },
+    {
+      "id": 17,
+      "nom": "Armure de plaques",
+      "carac": "+6 points d'armure"
+    },
+    {
+      "id": 18,
+      "nom": "Écu",
+      "carac": "3+1D4 - +2 points d'armure"
+    },
+    {
+      "id": 19,
+      "nom": "Sac à dos"
+    },
+    {
+      "id": 20,
+      "nom": "Tente"
+    },
+    {
+      "id": 21,
+      "nom": "Destrier Lourd"
+    },
+    {
+      "id": 22,
+      "nom": "Pavois",
+      "carac": "4+1D6 - +3 d'armure"
+    },
+    {
+      "id": 23,
+      "nom": "Arbalètre Lourde",
+      "carac": "4+1D6 - Dégâts max 12"
+    },
+    {
+      "id": 24,
+      "nom": "Carreaux d'Arbalète"
+    },
+    {
+      "id": 25,
+      "nom": "Cotte de Mailles",
+      "carac": "+4 d'armure"
+    },
+    {
+      "id": 26,
+      "nom": "Longue-Vue"
+    },
+    {
+      "id": 27,
+      "nom": "Menottes"
+    },
+    {
+      "id": 28,
+      "nom": "Chausse-trappes"
+    },
+    {
+      "id": 29,
+      "nom": "Slip en soie",
+      "carac": "Une douceur inégalée"
+    },
+    {
+      "id": 30,
+      "nom": "Tenue de voyage",
+      "carac": "Matelassée - 1 point d'armure"
+    },
+    {
+      "id": 31,
+      "nom": "Psaltérion"
+    },
+    {
+      "id": 32,
+      "nom": "Matériel d'Écriture"
+    },
+    {
+      "id": 33,
+      "nom": "Aiguille"
+    },
+    {
+      "id": 34,
+      "nom": "Savon"
+    },
+    {
+      "id": 35,
+      "nom": "Cheval Léger"
+    },
+    {
+      "id": 36,
+      "nom": "Bague",
+      "carac": "2 points d'armure"
+    }
+  ],
+  "sorts": [
+    {
+      "id": 0,
+      "nom": "Aura de Désespoir",
+      "carac": "2 points de magie"
+    },
+    {
+      "id": 1,
+      "nom": "Chevalier Élémentaire",
+      "carac": "X points de dégats de feu pour X points de magie"
+    },
+    {
+      "id": 2,
+      "nom": "Aura de Bravoure",
+      "carac": "2 points de magie"
+    },
+    {
+      "id": 3,
+      "nom": "Poigne",
+      "carac": "1 point de magie"
+    },
+    {
+      "id": 4,
+      "nom": "Flèche des Arcanes",
+      "carac": "1 point de magie"
+    },
+    {
+      "id": 5,
+      "nom": "Double-Flèche",
+      "carac": ""
+    },
+    {
+      "id": 6,
+      "nom": "Chant des Étoiles",
+      "carac": "3 points de magie"
+    },
+    {
+      "id": 7,
+      "nom": "Soin magique",
+      "carac": "X point de vie pour X point de magie"
+    },
+    {
+      "id": 8,
+      "nom": "Chant de sommeil",
+      "carac": "2 points de magie"
+    },
+    {
+      "id": 9,
+      "nom": "Chant-Nom",
+      "carac": "4 points de magie"
+    }
+  ],
+  "enchant": [
+    {
+      "id": 0,
+      "nom": "Armure de Terre",
+      "carac": "1 point d'armure"
+    },
+    {
+      "id": 1,
+      "nom": "Tranchevent",
+      "carac": "X point de dégât pour X point de magie"
+    },
+    {
+      "id": 2,
+      "nom": "Sûreté",
+      "carac": ""
+    },
+    {
+      "id": 3,
+      "nom": "Conversion de Dégâts Magiques",
+      "carac": "2 points de magie"
+    },
+    {
+      "id": 4,
+      "nom": "Adaptabilité",
+      "carac": ""
+    },
+    {
+      "id": 5,
+      "nom": "Soupir du Vent",
+      "carac": ""
+    },
+    {
+      "id": 6,
+      "nom": "Armure de Feu",
+      "carac": ""
+    }
+  ]
+}

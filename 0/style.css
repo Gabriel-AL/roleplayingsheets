@@ -1,0 +1,319 @@
+*{
+	box-sizing: border-box;
+	font-family: "Architects Daughter";
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	color: #6d4624;
+	font-family: "Cinzel Decorative";
+	font-size: 5em;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0px 1px 2px #f5d58f, 0px 1px 7px rgba(245, 213, 143, 0.5);
+	top: 1em;
+	width: 100%;
+}
+
+html{
+	background-color: black;
+	background-image: url("https://i.ytimg.com/vi/srw5njicimM/maxresdefault.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	text-align: center;
+}
+h2{
+	font-family: "Cinzel Decorative";
+	font-size: 2em;
+	margin: 0.5em 0;
+	position: relative;
+	text-align: center;
+	text-shadow: 0px 0px 0px 2px #24353d;
+	z-index:2;
+}
+h3{
+	font-family: "Playfair Display SC";
+	margin: 0.5em 0;
+	text-align: center;
+}
+.fiche_perso{
+	display: inline-block;
+	margin: 2.3%;
+	margin-top: 10%;
+	padding: 2em;
+	padding-top: 3em;
+	position: relative;
+	vertical-align: top;
+	text-align: justify;
+	width: 20%;
+
+	background: #f5d58f; /* Old browsers */
+	background: -moz-linear-gradient(top, #f5d58f 0%, #c49056 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f5d58f 0%,#c49056 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f5d58f 0%,#c49056 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d58f', endColorstr='#c49056',GradientType=0 ); /* IE6-9 */
+
+
+	border: 0.5em groove #9b6533;
+	border-right: 0.7em ridge #9b6533;
+	border-bottom: 0.7em ridge #9b6533;
+
+	-webkit-box-shadow:inset 0 0 10px 5px #704b2f, 0 0 15px 5px #24353d;
+	box-shadow:inset 0 0 10px 5px #704b2f, 0 0 15px 5px #24353d;
+
+	color:#6d4624;
+	font-size: 0.8em;
+}
+.fiche_perso:nth-of-type(2), .fiche_perso:nth-of-type(3){
+	margin-top: 15%;
+}
+.fiche_perso:nth-of-type(4){
+	margin-top: 11%;
+}
+.fiche_perso .histoire{
+	min-height: 80px;
+}
+.demi{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+.demi.infos span{
+	font-size:9px;
+}
+.dem.infos{
+	font-size: 12px;
+	line-height: 1em;
+}
+.demi span{
+	font-family: "Playfair Display SC";
+}
+.demi.subtitle{
+	font-family: "Sacramento";
+	font-style: italic;
+	font-size: 2em;
+	line-height: 0.75em;
+	padding: 0.5em 0em 0.5em 2em;
+}
+.abs{
+	color: rgba(255,255,255,0.8);
+	left: 0%;
+	position: absolute;
+	top:-2.5em;
+	text-shadow: 3px 3px 3px #6D4624;
+	-webkit-text-stroke: 1px #6D4624;
+	width: 100%;
+}
+table{
+	border: none;
+	border-collapse: collapse;
+	margin-top: 0.5em;
+	width: 100%;
+}
+table:first-child{
+	margin-top: 1em;
+}
+table td, table th{
+	border: 1px solid #6d4624;
+	border-top: none;
+	border-left: none;
+	text-align: center;
+	width: 33.33%;
+}
+table td{
+	font-family: "Architects Daughter";
+}
+table tr:last-child td{
+	border-bottom: none;
+}
+table td:last-child, table th:last-child{
+	border-right: none;
+}
+th span{
+	color: rgba(255,255,255,0.7);
+	font-family: "Playfair Display SC";
+}
+table th{
+	background-color: rgba(109, 70, 36, 1);
+}
+table td:nth-child(even){
+	background-color: rgba(109,70,36,0.25);
+}
+table th:first-child{
+	 background: -webkit-gradient(linear, left top, right top, from(rgba(109, 70, 36, 0)), to(rgba(109, 70, 36, 1)));
+	 background: -webkit-linear-gradient(left, rgba(109, 70, 36, 0),  rgba(109, 70, 36, 1));
+	 background: -moz-linear-gradient(left, rgba(109, 70, 36, 0),  rgba(109, 70, 36, 1));
+	 background: -ms-linear-gradient(left, rgba(109, 70, 36, 0),  rgba(109, 70, 36, 1));
+	 background: -o-linear-gradient(left, rgba(109, 70, 36, 0),  rgba(109, 70, 36, 1));
+}
+table th:last-child{
+	 background: -webkit-gradient(linear, left top, right top, from(rgba(109, 70, 36, 1)), to(rgba(109, 70, 36, 0)));
+	 background: -webkit-linear-gradient(left, rgba(109, 70, 36, 1),  rgba(109, 70, 36, 0));
+	 background: -moz-linear-gradient(left, rgba(109, 70, 36, 1),  rgba(109, 70, 36, 0));
+	 background: -ms-linear-gradient(left, rgba(109, 70, 36, 1),  rgba(109, 70, 36, 0));
+	 background: -o-linear-gradient(left, rgba(109, 70, 36, 1),  rgba(109, 70, 36, 0));
+}
+.demi p span{
+	font-weight: bold;
+}
+.avatar{
+	left: 0px;
+	position: absolute;
+	text-align: center;
+	top: -6em;
+	width: 100%;
+	z-index: 1;
+}
+.cadreavatar{
+	border-radius: 5em;
+	display: inline-block;
+	height: 10em;
+	overflow: hidden;
+	width: 10em;
+
+	border: 5px groove #9b6533;
+	border-right: 7px ridge #9b6533;
+	border-bottom: 7px ridge #9b6533;
+	-webkit-box-shadow:inset 0 0 10px 5px #704b2f, 0 0 0px 5px rgba(0,0,0,0.5);
+	box-shadow:inset 0 0 10px 5px #704b2f, 0 0 0px 5px rgba(0,0,0,0.5);
+}
+.avatar img{
+
+}
+
+.openable h3{
+	 background: -webkit-gradient(linear, left top, right top, from(rgba(109, 70, 36, 0)), color-stop(0.25, rgba(109, 70, 36, 1)),color-stop(0.75, rgba(109, 70, 36, 1)), to(rgba(109, 70, 36, 0)));
+	 background: -webkit-linear-gradient(left, rgba(109, 70, 36, 0), rgba(109, 70, 36, 1) 25%, rgba(109, 70, 36, 1) 75%, rgba(109, 70, 36, 1) 75%, rgba(109, 70, 36, 0));
+	 background: -moz-linear-gradient(left, rgba(109, 70, 36, 0), rgba(109, 70, 36, 1) 25% , rgba(109, 70, 36, 1) 75%, rgba(109, 70, 36, 0));
+	 background: -ms-linear-gradient(left, rgba(109, 70, 36, 0), rgba(109, 70, 36, 1) 25% , rgba(109, 70, 36, 1) 75%, rgba(109, 70, 36, 0));
+	 background: -o-linear-gradient(left, rgba(109, 70, 36, 0), rgba(109, 70, 36, 1) 25%, rgba(109, 70, 36, 1) 75%, rgba(109, 70, 36, 0));
+
+	 color: rgba(255,255,255,0.8);
+}
+
+.openable h3:hover{
+	cursor: pointer;
+}
+
+.openable h3:after{
+	content: " ▾";
+}
+
+.inventory ul, .histoire_content, .infos h3{
+	display: none;
+}
+.infos p{
+	display: block;
+}
+
+ul{
+	list-style-type: none;
+}
+.fiche_perso:nth-of-type(1) ul li:before{
+	content: "⚔ ";
+}
+.fiche_perso:nth-of-type(2) ul li:before{
+	content: "❄ ";
+}
+.fiche_perso:nth-of-type(3) ul li:before{
+	content: "🏹 ";
+}
+.fiche_perso:nth-of-type(4) ul li:before{
+	content: "❂ ";
+}
+ul li:nth-child(even){
+	background-color: rgba(109, 70, 36, 0.25);
+}
+
+li span{
+	font-family: "Uncial Antiqua";
+}
+
+.fiche_perso:nth-of-type(1) img{
+	margin-left: -70px;
+}
+.fiche_perso:nth-of-type(2) img{
+	margin-top: -50px;
+}
+.fiche_perso:nth-of-type(3) img{
+	margin-left: -50px;
+	margin-top:-50px;
+}
+.fiche_perso:nth-of-type(4) img{
+	margin-top: -54px;
+}
+
+@media all and (min-width: 1880px){
+	.dons h3, .aptitudes h3{
+		background:transparent;
+		color:#6d4624;
+	}
+
+	.dons h3:after, .aptitudes h3:after{
+		content: '';
+	}
+
+	.dons ul, .aptitudes ul{
+		display: block;
+	}
+}
+
+@media all and (max-width: 1880px){
+	.dons ul, .aptitudes ul{
+		display: none;
+	}
+	.subtitle{
+		display: none;
+	}
+	.infos{
+		width: 100%;
+	}
+}
+
+@media all and(max-width: 720px){
+
+}
+
+@media all and (max-width: 1660px){
+	header{
+		position: relative;
+		margin-top: 0.25em;
+	}
+
+	.infos.openable h3{
+		display: block;
+		margin-top: 1.5em;
+	}
+	.infos p{
+		display: none;
+	}
+}
+
+@media all and (max-width: 1200px){
+	header{
+		margin-bottom: 1em;
+	}
+	#fiches{
+		margin: auto;
+		width: 80%;
+	}
+	.fiche_perso{
+		margin-top: 7%!important;
+		width: 40%;
+	}
+
+}
+
+@media all and (max-width: 760px){
+	header{
+		font-size: 3em;
+		margin-bottom: 3em;
+	}
+	.fiche_perso{
+		width: 100%;
+	}
+}
